@@ -12,3 +12,7 @@ python3 -m http.server 8000
 ```
 
 Luego abre <http://localhost:8000>.
+
+## Publicación
+
+Cada push a `main` compila y publica la app en GitHub Pages mediante `.github/workflows/pages.yml` (requiere *Settings → Pages → Source: GitHub Actions*).
